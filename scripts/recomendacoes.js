@@ -155,6 +155,12 @@ frm.addEventListener("submit", (e) => {
     recomendaDestino();
 
     frm.btEscolher.disabled = true;
+
+    // Se o usuário já tiver recebido a sua recomendação, muda o estilo do botão submit para fins de identificação
+    if (frm.btEscolher.disabled == true) {
+        frm.btEscolher.style.background = "gray";
+        frm.btEscolher.style.cursor = "default";
+    }
     
 });
 
