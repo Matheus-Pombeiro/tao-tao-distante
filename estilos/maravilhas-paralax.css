@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+/*Declaração de Variáveis*/
+
+:root {
+
+    /*Cores*/
+    --cor1: #2A678C;
+    --cor2: #C4E5F2;
+    --cor3: #F28B50;
+    --cor4: #A65E44;
+
+    /*Fontes*/
+    --fonte-titulo: 'Montserrat', sans-serif;
+    --fonte-corpo: 'Ysabeau Office', sans-serif;
+}
+
+/*Cabeçalho*/
+
+.cabecalho__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.cabecalho {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+/*Corpo da página*/
+
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 2rem; 
+}
+
+.secao__imagem {
+    height: 100vh;
+}
+
+.secao__imagem > p {
+    width: 330px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(231, 231, 231, 0.719);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+
+.secao__normal {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao__normal > p {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 1.5rem;
+}
+
+/*Chichén Itzá Paralax*/
+
+#chichen-itza-01 {
+    background-image: url("../assets/chichen-itza/chichen-itza-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+#chichen-itza-02 {
+    background-image: url("../assets/chichen-itza/chichen-itza-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+/*Coliseu Paralax*/
+
+#coliseu-01 {
+    background-image: url("../assets/coliseu/coliseu-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+#coliseu-02 {
+    background-image: url("../assets/coliseu/coliseu-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+/*Christo Redentor Paralax*/
+
+#cristo-redentor-01 {
+    background-image: url("../assets/cristo-redentor/cristo-redentor-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+#cristo-redentor-02 {
+    background-image: url("../assets/cristo-redentor/cristo-redentor-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+/*Grande Muralha da China Paralax*/
+
+#grande-muralha-da-china-01 {
+    background-image: url("../assets/grande-muralha-da-china/grande-muralha-da-china-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+#grande-muralha-da-china-02 {
+    background-image: url("../assets/grande-muralha-da-china/grande-muralha-da-china-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+/*Machu Pichu Paralax*/
+
+#machu-pichu-01 {
+    background-image: url("../assets/machu-pichu/machu-pichu-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+#machu-pichu-02 {
+    background-image: url("../assets/machu-pichu/machu-pichu-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+/*Petra Paralax*/
+
+#petra-01 {
+    background-image: url("../assets/petra/petra-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+#petra-02 {
+    background-image: url("../assets/petra/petra-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+/*Petra Paralax*/
+
+#taj-mahal-01 {
+    background-image: url("../assets/taj-mahal/taj-mahal-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+#taj-mahal-02 {
+    background-image: url("../assets/taj-mahal/taj-mahal-02.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+}
+
+/*Seção de Fechamento*/
+
+.secao__fechamento {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao__fechamento > p {
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 1.7rem;
+}
+
+/*Telas de Tablets e Ipads*/
+
+@media screen and (min-width: 768px) {
+
+    section {
+        padding-left: 25px;
+    }
+
+    .secao__imagem > p {
+        margin-left: 10px;
+    }
+
+    .secao__normal > p {
+        width: 680px;
+        margin-left: 20px;
+    }
+
+}
+
+/*Telas de Desktops*/
+
+@media screen and (min-width: 1024px) {
+
+    section {
+        padding-left: 30px;
+    }
+
+    .secao__imagem > p {
+        padding: 20px;
+    }
+
+    .secao__normal > p {
+        width: 750px;
+    }
+
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*Slider CSS*/
+
+#slider__subtitulo {
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
+}
+
+#slider {
+    position: relative;
+    width: 350px;
+    height: 200px;           /*Repare que aqui foi usado vw ao invés de vh*/
+}
+
+#slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;              /*Cobre o espaço disponível do container com a imagem*/
+    opacity: 0;                     /*Faz sumir a imagem*/
+    transition: opacity 800ms;      /*Faz uma transição mais suave entre as imagens*/
+    border-radius: 15px;
+}
+
+#slider img.selected {
+    opacity: 1;             /*Faz aparecer a imagem*/
+}
+
+/*Telas de Tablets e IPads*/
+
+@media screen and (min-width: 768px) {
+
+    #slider {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+/*Telas de Desktops*/
+
+@media screen and (min-width: 1024px) {
+
+    #slider {
+        width: 700px;
+        height: 350px;
+    }
+
+}

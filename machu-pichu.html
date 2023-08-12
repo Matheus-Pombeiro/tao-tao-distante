@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machu Pichu</title>
+    <link rel="shortcut icon" href="assets/icones/compass-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/menu-hamburguer.css">
+    <link rel="stylesheet" href="estilos/maravilhas-paralax.css">
+</head>
+<body>
+    <!--Cabeçalho com menu hamburguer e outros links-->
+    <header>
+        <nav>
+            <img src="assets/icones/compass-navbar.png" alt="Logo Tão Tão Distante">
+            <ul class="nav__list">
+                <li class="nav__list__item"><a href="index.html">Início</a></li>
+                <li class="nav__list__item"><a href="destinos.html">Destinos</a></li>
+                <li class="nav__list__item"><a href="recomendacoes.html">Recomendações</a></li>
+            </ul>
+            <button onclick="menuShow()" class="nav__menu-icon"><img class="icon" src="assets/icones/menu.png" alt="Menu Hamburguer"></button>
+        </nav>
+        <div class="nav__container__list__menu-mobile">
+            <ul class="nav__list__menu-mobile">
+                <li class="nav__list__item"><a href="index.html">Início</a></li>
+                <li class="nav__list__item"><a href="destinos.html">Destinos</a></li>
+                <li class="nav__list__item"><a href="recomendacoes.html">Recomendações</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="cabecalho__container">
+            <div class="cabecalho titulo__mobile">
+                <h1 class="titulo">Tão Tão Distante Turismo</h1>
+                <img src="assets/icones/compass.png" alt="Bússola">
+            </div>
+            <h2 class="titulo titulo__mobile">Machu Pichu</h2>
+        </section>
+
+        <!--Seções de imagens com paralax e seção normal-->
+        <section class="secao__imagem" id="machu-pichu-01">
+            <p>A cidade perdida dos Incas exala energia e permite aos visitantes desvendar um pouquinho de um povo que guardava conhecimento muito avançado, especialmente para a época.</p>
+        </section>
+
+        <section class="secao__normal">
+            <p>O sítio arqueológico está 2.450 metros acima do nível do mar e foi povoado entre os anos de 1450 a 1540. As famílias que lá viviam cultivavam, principalmente, milho e batata e deixaram a cidade antes da chegada dos espanhóis.</p>
+        </section>
+
+        <section class="secao__imagem" id="machu-pichu-02">
+            <p>A melhor forma para visitar a cidade é chegar a Águas Calientes, na base de Machu Picchu, de trem saindo de Cusco, no Peru. Embarque conosco nessa aventura!</p>
+        </section>
+
+        <section class="secao__fechamento">
+            <p>Esse é apenas um dos muitos destinos para os quais podemos te levar. Embarque conosco nessa viagem!</p>
+        </section>
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        <p>Tão Tão Distante 2023 &copy; | <a href="https://www.linkedin.com/in/matheus-pombeiro/" target="_blank" rel="noopener noreferrer">Matheus Pombeiro</a></p>
+    </footer>
+
+    <!--Scripts-->
+    <script src="scripts/menu-hamburguer.js"></script>
+</body>
+</html>

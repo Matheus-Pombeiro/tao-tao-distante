@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tão Tão Distante</title>
+    <link rel="shortcut icon" href="assets/icones/compass-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/menu-hamburguer.css">
+    <link rel="stylesheet" href="estilos/slider.css">
+</head>
+<body>
+    <!--Cabeçalho com menu hamburguer e outros links-->
+    <header>
+        <nav>
+            <img src="assets/icones/compass-navbar.png" alt="Logo Tão Tão Distante">
+            <ul class="nav__list">
+                <li class="nav__list__item"><a href="index.html">Início</a></li>
+                <li class="nav__list__item"><a href="destinos.html">Destinos</a></li>
+                <li class="nav__list__item"><a href="recomendacoes.html">Recomendações</a></li>
+            </ul>
+            <button onclick="menuShow()" class="nav__menu-icon"><img class="icon" src="assets/icones/menu.png" alt="Menu Hamburguer"></button>
+        </nav>
+        <div class="nav__container__list__menu-mobile">
+            <ul class="nav__list__menu-mobile">
+                <li class="nav__list__item"><a href="index.html">Início</a></li>
+                <li class="nav__list__item"><a href="destinos.html">Destinos</a></li>
+                <li class="nav__list__item"><a href="recomendacoes.html">Recomendações</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="principal"> 
+        <!--Seção com o cabeçalho paralax-->  
+        <section class="cabecalho__paralax">
+            <h1 class="titulo">Tão Tão Distante</h1>
+            <h2 class="subtitulo">Seja bem-vindo(a) à Tão Tão Distante Turismo, a sua agência de viagens!</h2>
+        </section>
+        
+        <!--Seção com mensagens de apresentação-->
+        <section id="apresentacao">
+            <p>Nossa missão é tornar a sua jornada mais fácil, e para isso oferecemos vários pacotes de viagens para pontos turísticos do mundo todo. A <span>Tão Tão Distante</span> está presente em vários países, e além disso estamos bem posicionados no mundo digital. Assim, as fronteiras estão abertas para que você chegue até nós!</p>
+        </section>
+
+        <!--Seção com os pacotes de viagens-->
+        <section id="pacotes">
+            <p>Confira os nossos principais pacotes* de viagens logo a seguir.</p>
+            <div id="pacotes__itens">
+                <div class="pacotes__itens__item">
+                    <p class="pacotes__itens__item__nome">Ouro</p>
+                    <p>3 Destinos por R$ 22.000,00</p>
+                </div>
+                <div class="pacotes__itens__item">
+                    <p class="pacotes__itens__item__nome">Prata</p>
+                    <p>2 Destinos por R$ 17.000,00</p>
+                </div>
+                <div class="pacotes__itens__item">
+                    <p class="pacotes__itens__item__nome">Bronze</p>
+                    <p>1 Destino por R$ 12.000,00</p>
+                </div>
+            </div>
+            <p id="textoPequeno">*Os pacotes se limitam a: transporte, hospedaria e alimentação comum.</p>
+        </section>
+
+        <!--Seção de fechamento com um slider com as 7 Maravilhas do Mundo-->
+        <section id="fechamento">
+            <p>Deseja fazer aquela viagem dos sonhos que te permitirá explorar novos caminhos e conhecer novos horizontes, mas não tem ideia de para onde ir? Simples! Confira alguns dos muitos possíveis destinos que preparamos para você. As <span>7 Maravilhas do Mundo Moderno</span>!</p>
+        </section>
+
+        <!--Slider-->
+        <h3 id="slider__subtitulo">As 7 Maravilhas do Mundo Moderno</h3>
+        <div id="slider">
+            <!--Imagens do slider-->
+            <img src="assets/chichen-itza/chichen-itza-01.jpg" alt="Chichén Itzá" class="selected">
+            <img src="assets/coliseu/coliseu-01.jpg" alt="Coliseu">
+            <img src="assets/cristo-redentor/cristo-redentor-01.jpg" alt="Cristo Redentor">
+            <img src="assets/grande-muralha-da-china/grande-muralha-da-china-01.jpg" alt="Muralha da China">
+            <img src="assets/machu-pichu/machu-pichu-01.jpg" alt="Machu Pichu">
+            <img src="assets/petra/petra-01.jpg" alt="Petra">
+            <img src="assets/taj-mahal/taj-mahal-01.jpg" alt="Taj Mahal">
+        </div>
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        <p>Tão Tão Distante 2023 &copy; | <a href="https://www.linkedin.com/in/matheus-pombeiro/" target="_blank" rel="noopener noreferrer">Matheus Pombeiro</a></p>
+    </footer>
+    
+    <!--Scripts-->
+    <script src="scripts/menu-hamburguer.js"></script>
+    <script src="scripts/slider.js"></script>
+</body>
+</html>

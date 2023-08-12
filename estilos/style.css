@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+/*Fontes usadas no projeto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');        /*Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap');    /*Ysabeau Office*/
+
+/*Declaração de Variáveis*/
+
+:root {
+
+    /*Cores*/
+    --cor1: #2A678C;
+    --cor2: #C4E5F2;
+    --cor3: #F28B50;
+    --cor4: #A65E44;
+
+    /*Fontes*/
+    --fonte-titulo: 'Montserrat', sans-serif;
+    --fonte-corpo: 'Ysabeau Office', sans-serif;
+}
+
+/*Configurações Gerais*/
+
+body {
+    font-family: var(--fonte-corpo);
+    font-size: 1.2rem;
+}
+
+/*Header*/
+
+header {
+    margin-bottom: 0;
+    padding: 10px 10px;
+    background-color: var(--cor2);
+}
+
+/*Corpo da página*/
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 3rem;
+    line-height: 1.5rem;
+}
+
+.cabecalho__paralax {
+    width: 100%;
+    padding: 150px 0;
+    background-image: url("../assets/backgrounds/background-01.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.468);
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+
+.titulo {
+    margin: 15px auto;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+    letter-spacing: 2px;
+}
+
+.subtitulo {
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.cabecalho p {
+    padding: 0 15px;
+    font-weight: 500;
+}
+
+.titulo__mobile {
+    font-size: 1.5rem;
+}
+
+#apresentacao, #fechamento {
+    padding: 0 2rem;
+    text-align: justify;
+}
+
+#apresentacao span, #fechamento span {
+    font-weight: bold;
+}
+
+#pacotes {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: whitesmoke;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.208);
+}
+
+#textoPequeno {
+    font-size: small
+}
+
+#pacotes__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#pacotes__itens div {
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.393);
+}
+
+.pacotes__itens__item__nome {
+    font-weight: bold;
+}
+
+/*Rodapé*/
+
+footer {
+    bottom: 0;
+    padding: 15px 7px;
+    background-color: var(--cor2);
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:active {
+    text-decoration: underline;
+}
+
+/*Telas de Tablets e IPads*/
+
+@media screen and (min-width: 768px) {
+
+    /*Corpo da Página*/
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    .subtitulo {
+        font-size: 22px;
+    }
+    
+}
+
+/*Telas de Desktop*/
+
+@media screen and (min-width: 1024px) {
+
+    /*Corpo da Página*/
+
+    .titulo {
+        font-size: 34px;
+    }
+    
+    .subtitulo {
+        font-size: 26px;
+    }
+    
+    #apresentacao > p, #fechamento > p {
+        width: 65vw;
+        margin: 0 auto;
+    }
+
+    .pacotes__itens__item:hover {
+        background-color: rgb(216, 216, 216);
+        transition: all .3s ease;
+    }
+
+    /*Rodapé*/
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+}
