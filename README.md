@@ -7,7 +7,7 @@
 
  A princípio a ideia do autor era desenvolver este projeto visando fixar seus conhecimentos no efeito Paralax. No enatnto, ao longo do projeto o autor teve outras ideias, como, por exemplo: menu hamburguer, slider, CSS: Grid Layout e um algoritmo em JS para recomendar um destino de viagem para o usuário, baseado em sua resposta a um formulário relativamente simples.
 
- Deploy: <a href="https://matheus-pombeiro.github.io/tao-tao-distante/"></a>
+ <a href="https://matheus-pombeiro.github.io/tao-tao-distante/">Deploy</a>
 
  Autor: Matheus Vinicius Garcia Pombeiro
  Situação Acadêmica Atual do Autor (2º Semestre de 2023): Graduado em Ciências Contábeis e Graduando em Engenharia de Software
